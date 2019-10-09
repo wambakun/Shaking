@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class Pulsing: CALayer{
+    //
     var animationGroup = CAAnimationGroup()
     var initiatePulse: Float = 0
     var nextPulseAfter: TimeInterval = 0
